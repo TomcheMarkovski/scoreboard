@@ -1,0 +1,68 @@
+@font-face {
+  font-family: "MyFont";
+  src: url("./fonts/MyFont.ttf") format("truetype");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: #1B244A;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    height: 100vh;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+}
+
+.title-score {
+    color: #EEEEEE;
+    font-size: 50px;
+    letter-spacing: 1.5px;
+}
+
+.score {
+    font-family: "MyFont";
+    font-size: 90px;
+    color: #F94F6D;
+    background-color: #080001;
+    border-radius: 5px;
+    width: 180px;
+    margin: 20px;
+    padding-top: 16px;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn button {
+    font-family: "MyFont";
+    font-size: 20px;
+    font-weight: 500;
+    background: none;
+    /* width: 45px;
+    height: 45px; */
+    padding: 10px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    color: #9AABD8;
+
+}
